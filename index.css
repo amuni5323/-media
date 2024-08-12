@@ -1,0 +1,47 @@
+body{
+    background-color: white;
+   /* max-width: 100vw;*/ 
+   flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+  
+   
+    
+
+
+.standard{ display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  
+    
+}
+.basic{
+    background-color: lightgray;
+te
+}
+.bold{
+font-weight: bold;
+}
+.resize{
+    font-size: 30px;
+    font-weight: bold;
+}
+button{
+    background-color: coral;
+}
+@media    (max-width:700px) {
+    .standard{
+        flex-direction: column;
+        
+
+        
+    }
+    .basic{
+        margin-top: 10px;
+
+    }
+
+}
